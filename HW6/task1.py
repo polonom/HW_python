@@ -1,0 +1,5 @@
+n=int(input())
+listn=list(range(1,n+1))
+newlist=list(map(lambda i: 3*i+1,listn))
+m=dict(zip(listn,newlist))
+print(m)
