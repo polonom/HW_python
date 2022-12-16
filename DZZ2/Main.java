@@ -18,4 +18,4 @@ public class Main
     System.out.println(from + " -> " + to);
     hanoi(q-1,buf,to,from);
   }
-}3
+}
